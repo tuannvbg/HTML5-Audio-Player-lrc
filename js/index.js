@@ -237,7 +237,6 @@ $(function(){
         player.$audio.off("progress",loadProgress);
         player.$audio.on("progress",loadProgress);
         $songCoverA.addClass('anim-rotate');
-        $lrcUl.css("margin-top",0);
         setTimeout(function(){
             $songCoverA.removeClass('anim-pause');
         },1000);
@@ -271,6 +270,9 @@ $(function(){
             player.audio.pause();
             $songPlay.removeClass('icon_pause').addClass('icon_play');
             cancelAnimationFrame(player.songPlaying);
+            if ( stop ){
+                $lrcUl.css("margin-top",0);
+            }
         }else{
             if ( player.audio.stop ){
                 playAction(player.currentID);
