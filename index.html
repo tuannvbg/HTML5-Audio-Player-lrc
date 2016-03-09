@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Audio</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta content="email=no" name="format-detection" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.min.css">
+</head>
+<body>
+    <header class="header">
+        <div id="logo">
+            <a alt="nostar" title="nostar">
+                <img src="img/logo_white.png">
+            </a>
+        </div>
+        <div class="playConfig">
+            <a data-type="one" class="playConfig_one">单曲循环</a>
+             / 
+            <a data-type="list" class="playConfig_list">顺序循环</a>
+             / 
+            <a data-type="random" class="playConfig_random">随机播放</a>
+        </div>
+        <div class="bgConfig">
+            <a id="bgChangeBtn"><i class="fa fa-arrows"></i></a>
+            <div class="bgList">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div id="playBox">
+            <div class="songInfo">
+                <div class="songCover">
+                    <div class="songCover_box">
+                        <a class="anim-pause">
+                            <img src="img/defaultArtist.jpg" />
+                        </a>
+                    </div>
+                </div>
+                <div class="songText">
+                    <div class="songTitle">
+                        歌曲名
+                    </div>
+                    <div class="songArtist">
+                        歌手名-专辑名
+                    </div>
+                    <div class="songProgress">
+                        <div class="songProgressBox">
+                            <span class="totalProgress">
+                            
+                            </span>
+                            <span class="loadProgress">
+                                
+                            </span>
+                            <span class="currentProgress">
+                                
+                            </span>
+                        </div>
+                    	<div class="timeline">
+                    		<span class="currentTime">
+                    			00:00
+                    		</span>
+                             / 
+                    		<span class="totalTime">
+                    			00:00
+                    		</span>
+                    	</div>
+                    </div>
+		            <div class="songCtrl">
+		                <a id="songPrev" title="上一首/←方向键"><i class="fa fa-backward"></i></a>
+		                <a id="songPlay" class="icon_play" title="暂停/播放/空格"><i class="fa"></i></a>
+		                <a id="songNext"><i class="fa fa-forward" title="下一首/→右方向键"></i></a>
+		            </div>
+                </div>
+            </div>
+            <div class="songList">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div class="lrc">
+            <div class="lrcBox">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+    </footer>
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/index.min.js"></script>
+</body>
+
+</html>

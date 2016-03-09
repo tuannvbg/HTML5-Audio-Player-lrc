@@ -1,0 +1,452 @@
+/* CSS reset */
+html{
+    display: block;
+    font-size: 10px;
+    min-height: 100%;
+}
+body{
+    line-height:1.5;
+    color:#333;
+    font-family:arial,microsoft yahei;
+    font-size: 1.25rem;
+}
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border: 0;
+    background: 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1.6rem;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+a img{
+    border:0;
+}
+img{
+    border:0;
+    max-width: 100%;
+}
+a,img,button,input,textarea{
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+
+/* CSS */
+body,html{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    -webkit-user-select: none;
+    font: 16px/1.5rem 微软雅黑;
+    overflow: hidden;
+}
+body{
+    background: url(http://www.dongting.com/styles/images/bg/large/003.jpg) no-repeat 0 0;
+    background-size: 100% 100%;
+    /*background: #333;*/
+}
+#bgImage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#bgImage img{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 7;
+    background: -webkit-linear-gradient(rgba(119,119,119,.3), rgba(115,115,115,.3));
+    background: -o-linear-gradient(rgba(119,119,119,.3), rgba(115,115,115,.3));
+    background: linear-gradient(rgba(119,119,119,.3), rgba(115,115,115,.3));
+    border-bottom: rgba(11,11,11,.5) 2px solid;
+}
+#logo{
+    width: 330px;
+    height: 100%;
+    box-shadow: rgba(0,0,0,.3) 0 0 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#logo a{
+    display: block;
+}
+#logo img{
+    margin: 10px 0 0 20px;
+    height: 30px;
+}
+.playConfig{
+    position: absolute;
+    right: 50px;
+    height: 30px;
+    top: 10px;
+}
+.playConfig a{
+    padding: 0 10px;
+    cursor:pointer;
+}
+.playConfig a.current{
+    color : #00BCD4;
+}
+.playConfig a:hover{
+    color : #00BCD4;
+}
+.bgConfig{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+.bgConfig a{
+    display: block;
+    cursor: pointer;
+}
+.bgConfig.current>a{
+    background-color: rgba(255,255,255,.1);
+    color: #00BCD4;
+}
+.bgConfig>a:hover{
+    background-color: rgba(255,255,255,.1);
+    color: #00BCD4;
+}
+.bgConfig>a .fa{
+    line-height: 50px;
+}
+.bgList{
+    position: absolute;
+    top: 52px;
+    right: 0;
+    width: 270px;
+    padding: 0 5px;
+    display: none;
+    border-left: rgba(11,11,11,.5) 2px solid;
+    border-bottom: rgba(11,11,11,.5) 2px solid;
+    background: rgba(255,255,255,.1);
+}
+.bgConfig.current .bgList{
+    display: block;
+}
+.bgList ul{
+    overflow: hidden;
+}
+.bgList li{
+    width: 33.33%;
+    float: left;
+    padding: 5px 0;
+}
+.bgList li a{
+    width: 80px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bgList li.current a{
+    color: #EC4190;
+    border:currentColor 2px solid;
+    font: normal normal normal 20px/1 FontAwesome;
+    position: relative;
+}
+.bgList li.current a::after{
+    content : "\f00c";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: currentColor;
+}
+.bgList li a img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    margin-top: 52px;
+    position: relative;
+}
+#playBox{
+    width: 330px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(233,233,233,.1);
+    box-shadow: rgba(0,0,0,.3) 0 0 10px;
+    z-index: 6;
+}
+.songInfo{
+    padding: 10px 10px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+.songCover{
+    float: left;
+    cursor: pointer;
+}
+.songCover_box a{
+    width: 130px;
+    height: 130px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.anim-rotate{
+    -webkit-animation: rotate 7s linear infinite;
+    animation: rotate 7s linear infinite;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.anim-pause{
+    -webkit-animation-play-state: paused!important;
+    animation-play-state: paused!important;
+    opacity: .5;
+}
+.songCover_box a::before{
+    content: ' ';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(0,0,0,.5);
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.songCover_box a::after{
+    content: ' ';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: rgba(255,255,255,.7);
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.songCover_box a img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+.songText{
+    width: 170px;
+    float: right;
+}
+.songTitle{
+    font-size: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.songArtist{
+    color: #eee;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.songProgress{
+    width: 96%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.songProgressBox{
+    position: relative;
+    height: 3px;
+}
+.songProgressBox>span{
+    border-radius: 5px;
+    display: block;
+    height: 100%;
+    border: rgba(77,77,77,.7);
+}
+.totalProgress{
+    background-color: rgb(250,250,250);
+}
+.loadProgress{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #ccc;
+}
+.currentProgress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: green;
+}
+.timeline{
+    text-align: right;
+    font-size: 12px;
+    line-height: 22px;
+}
+.songCtrl{
+    height: 45px;
+    font-size: 25px;
+    line-height: 45px;
+    position: relative;
+}
+.songCtrl a{
+    position: absolute;
+    top: 7px;
+    color: #ddd;
+    text-align: center;
+    width: 30px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+.songCtrl a:hover{
+    color: #fff;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#songPrev{
+    left: 10px;
+}
+#songPlay{
+    font-size: 30px;
+    top: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.icon_pause .fa::before {
+    content: "\f28c";
+}
+.icon_play .fa::before {
+    content: "\f01d";
+}
+#songNext{
+    right: 10px;
+}
+.songList{
+    padding: 5px 0;
+    line-height: 28px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: #333 1px solid;
+    font-size: 14px;
+}
+.songList ul li:nth-child(2n){
+    background-color: rgba(180,180,180,.1);
+}
+.songList ul li a{
+    display: block;
+    padding: 0 20px;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.songList ul li a::before{
+    content: ' ';
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    border-radius: 50%;
+    background: currentColor;
+}
+.songList ul li.current a , .songList ul li a:hover{
+    color:#00BCD4;
+    cursor: pointer;
+}
+.songList ul li.current a{
+    font-weight: bold;
+}
+.lrc{
+    padding: 30px 20px 30px 350px;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.lrcBox{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+.lrcBox ul{
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.lrc_first{
+    margin-top: 30px;
+}
+.lrc li{
+    min-height: 30px;
+}
+.lrc li.current{
+    font-weight: 400;
+    background-color: rgba(255,255,255,.1);
+    color: #DC3C68;
+}
+.t_e{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+@-webkit-keyframes rotate {
+    0%{
+        -webkit-transform:rotate(0);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+@keyframes rotate {
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}

@@ -1,0 +1,164 @@
+{
+	"list" : [
+		{
+			"id" : "2",
+			"title" : "葛叔的号哭",
+			"artist" : "葛叔",
+			"duration" : "03:41",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Geshudehaoku/Geshudehaoku.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Geshudehaoku/Geshudehaoku.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Geshudehaoku/Geshudehaoku.lrc",
+			"type" : "guichu"
+		},
+		{
+			"id" : "3",
+			"title" : "女人三十",
+			"artist" : "弥与弥歌",
+			"duration" : "04:49",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Nvrensanshi/Nvrensanshi.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Nvrensanshi/Nvrensanshi.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Nvrensanshi/Nvrensanshi.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "4",
+			"title" : "红警进行曲",
+			"artist" : "爱国者之热血",
+			"duration" : "02:51",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Red Alert/Red Alert.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Red Alert/Red Alert.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Red Alert/Red Alert.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "5",
+			"title" : "欠一个拥抱",
+			"artist" : "乌拉喵",
+			"duration" : "03:30",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/qianyigeyongbao/qianyigeyongbao.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/qianyigeyongbao/qianyigeyongbao.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/qianyigeyongbao/qianyigeyongbao.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "6",
+			"title" : "Let Her Go",
+			"artist" : "Passenger",
+			"duration" : "04:12",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Let Her Go/Let Her Go.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Let Her Go/Let Her Go.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Let Her Go/Let Her Go.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "7",
+			"title" : "Peu A Peu",
+			"artist" : "Peppermoon",
+			"duration" : "03:44",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Peu A Peu/Peu A Peu.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Peu A Peu/Peu A Peu.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Peu A Peu/Peu A Peu.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "8",
+			"title" : "Life's A Struggle",
+			"artist" : "宋岳庭",
+			"duration" : "06:11",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Life's A Struggle/Life's A Struggle.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Life's A Struggle/Life's A Struggle.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Life's A Struggle/Life's A Struggle.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "9",
+			"title" : "灵魂的号哭",
+			"artist" : "祈inory",
+			"duration" : "03:35",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Linghundehaoku/Linghundehaoku.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Linghundehaoku/Linghundehaoku.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Linghundehaoku/Linghundehaoku.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "10",
+			"title" : "Scarborough Fair",
+			"artist" : "Sarah Brightman",
+			"duration" : "04:13",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Scarborough Fair/Scarborough Fair.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Scarborough Fair/Scarborough Fair.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Scarborough Fair/Scarborough Fair.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "11",
+			"title" : "Fairytale",
+			"artist" : "Alexander Rybak",
+			"duration" : "03:01",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Fairytale/Fairytale.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Fairytale/Fairytale.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Fairytale/Fairytale.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "12",
+			"title" : "Rage your dream",
+			"artist" : "m.o.v.e (M.O.V.E)",
+			"duration" : "04:33",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Rage your dream/Rage your dream.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Rage your dream/Rage your dream.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Rage your dream/Rage your dream.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "13",
+			"title" : "50 Ways to Say Goodbye",
+			"artist" : "Train",
+			"duration" : "04:07",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/50 Ways to Say Goodbye/50 Ways to Say Goodbye.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/50 Ways to Say Goodbye/50 Ways to Say Goodbye.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/50 Ways to Say Goodbye/50 Ways to Say Goodbye.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "14",
+			"title" : "Say Something",
+			"artist" : "A Great Big World",
+			"duration" : "03:52",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Say Something/Say Something.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Say Something/Say Something.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Say Something/Say Something.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "15",
+			"title" : "Lost one的号哭",
+			"artist" : "おわん",
+			"duration" : "03:38",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Lost one de haoku/Lost one de haoku.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Lost one de haoku/Lost one de haoku.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Lost one de haoku/Lost one de haoku.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "16",
+			"title" : "相思",
+			"artist" : "毛阿敏",
+			"duration" : "03:02",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/xiangsi/xiangsi.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/xiangsi/xiangsi.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/xiangsi/xiangsi.lrc",
+			"type" : "geji"
+		},
+		{
+			"id" : "17",
+			"title" : "月に叢雲華に風 (丛云伴月风拂花)",
+			"artist" : "幽閉サテライト",
+			"duration" : "04:34",
+			"media" : "http://www.yunjiayigou.com/js/lib/temp/Congyunbanyuefengfuhua/Congyunbanyuefengfuhua.mp3",
+			"cover" : "http://www.yunjiayigou.com/js/lib/temp/Congyunbanyuefengfuhua/Congyunbanyuefengfuhua.jpg",
+			"lrc" : "http://www.yunjiayigou.com/js/lib/temp/Congyunbanyuefengfuhua/Congyunbanyuefengfuhua.lrc",
+			"type" : "geji"
+		}
+	]
+}
