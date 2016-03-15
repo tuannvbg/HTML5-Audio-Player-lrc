@@ -270,9 +270,6 @@ $(function(){
             player.audio.pause();
             $songPlay.removeClass('icon_pause').addClass('icon_play');
             cancelAnimationFrame(player.songPlaying);
-            if ( stop ){
-                $lrcUl.css("margin-top",0);
-            }
         }else{
             if ( player.audio.stop ){
                 playAction(player.currentID);
