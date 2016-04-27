@@ -39,17 +39,17 @@ $(function(){
             history : [],
             bg : {
                 inited : false,
-                id : localStorage.getItem("bgId") || 2,
+                id : localStorage.getItem("bgId") || 6,
                 list : [
-                    "http://www.dongting.com/styles/images/bg/large/001.jpg",
-                    "http://www.dongting.com/styles/images/bg/large/002.jpg",
-                    "http://www.dongting.com/styles/images/bg/large/003.jpg",
-                    "http://www.dongting.com/styles/images/bg/large/004.jpg",
-                    "http://www.dongting.com/styles/images/bg/large/005.jpg",
-                    "http://www.dongting.com/styles/images/bg/large/006.jpg",
-                    "http://www.dongting.com/styles/images/bg/large/007.jpg",
-                    "http://www.dongting.com/styles/images/bg/large/008.jpg",
-                    "http://www.dongting.com/styles/images/bg/large/009.jpg"
+                    "http://pic.90sjimg.com/back_pic/u/00/02/82/06/5618aadb43b8e.jpg",
+                    "http://pic1.win4000.com/wallpaper/6/54227a860266d.jpg",
+                    "http://img15.3lian.com/2015/f1/80/d/93.jpg",
+                    "http://img2.3lian.com/2014/f5/81/d/79.jpg",
+                    "http://p19.qhimg.com/bdr/__/t0177904c1b77b3c256.jpg",
+                    "http://img2.3lian.com/2014/f3/15/d/25.jpg",
+                    "http://p15.qhimg.com/bdr/__/d/_open360/design0409/7.jpg",
+                    "http://img2.3lian.com/2014/f4/209/d/90.jpg",
+                    "http://www.pp3.cn/uploads/allimg/c111231/132531ST050-J0W.jpg"
                 ]
             }
         };
